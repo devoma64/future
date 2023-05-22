@@ -452,3 +452,32 @@ line-height: 2.2;
 .login-form p span a{
   color: #0E5E6F;
 }
+
+
+.contact-form {
+  width: 700px;
+}
+
+.contact-form form input{
+width: 300px;
+border-color: #3A8891;
+}
+
+.contact-form form .input-container {
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+}
+
+.contact-form form textarea {
+  width: 620px;
+  border: 1px solid #3A8891;
+  margin-top: 1.2rem;
+}
+
+.contact-form form .login {
+
+  width: 200px;
+  margin-left: 13rem;
+}
