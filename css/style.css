@@ -39,6 +39,12 @@ body {
   width: var(--container-width-lg);
   margin: auto;
 }
+header {
+  margin-top: -2rem;
+  background-image: url('https://images.unsplash.com/photo-1558905945-901dc8efd4b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTZ8OTMxODc4NHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 section {
   padding: 6rem 0;
 }
@@ -200,7 +206,7 @@ margin: 1rem 0 3rem;
 .futures_skills_right
 {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
 }
 .future
@@ -247,7 +253,7 @@ margin: 1rem 0 3rem;
 .futures_courses_container
 {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
 }
 .ft_course{
